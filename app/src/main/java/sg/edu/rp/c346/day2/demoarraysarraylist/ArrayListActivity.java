@@ -27,7 +27,7 @@ public class ArrayListActivity extends AppCompatActivity {
         fruits.add("banana");
         fruits.add("cherry");
 
-        fruits.add("durian");
+        fruits.add(3,"durian");
         String theFruit = fruits.get(1);
         fruits.remove(0);
         fruits.set(2, "dragon fruit");
